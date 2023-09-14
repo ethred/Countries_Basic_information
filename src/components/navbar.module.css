@@ -4,6 +4,7 @@ nav {
   align-items: center;
   padding: 1rem;
   color: var(--secondary-color);
+  gap: 200px;
 }
 
 h3 {
