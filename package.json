@@ -1,7 +1,6 @@
 {
   "name": "countries",
   "version": "0.1.0",
-  // "homepage": "https://ethred.github.io/Countries_Basic_information",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
@@ -16,8 +15,6 @@
     "redux-thunk": "^2.4.2"
   },
   "scripts": {
-    // "predeploy": "npm run build",
-    // "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
