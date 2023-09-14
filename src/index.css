@@ -7,7 +7,7 @@
 :root {
   font-family: monospace;
 
-  --primary-color: rgb(244, 9, 213);
-  --primary-dark-color: rgb(240, 142, 227);
+  --primary-color: #ccedf3;
+  --primary-dark-color: rgb(142, 147, 240);
   --secondary-color: white;
 }
