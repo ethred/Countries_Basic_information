@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Countries_Basic_information/static/css/main.0623c4e9.css",
+    "main.js": "/Countries_Basic_information/static/js/main.747b4cab.js",
+    "static/media/7559643.jpg": "/Countries_Basic_information/static/media/7559643.f19773dc0480bd693670.jpg",
+    "index.html": "/Countries_Basic_information/index.html",
+    "main.0623c4e9.css.map": "/Countries_Basic_information/static/css/main.0623c4e9.css.map",
+    "main.747b4cab.js.map": "/Countries_Basic_information/static/js/main.747b4cab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0623c4e9.css",
+    "static/js/main.747b4cab.js"
+  ]
+}
