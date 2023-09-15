@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+  color: #fff;
+}
+
+:root {
+  --primary-color: #ff2b90;
+  --primary-dark-color: #e02476;
+  --secondary-color: white;
+}

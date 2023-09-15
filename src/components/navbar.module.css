@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--secondary-color);
+  width: 100%;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: black;
+}
+
+img {
+  cursor: pointer;
+  margin: 0.5rem;
+}

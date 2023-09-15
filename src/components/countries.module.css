@@ -1,0 +1,71 @@
+.container {
+  background-color: var(--primary-color);
+  padding-bottom: 10px;
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 40px;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+.header {
+  font-size: 3rem;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.countriesContainer {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+  color: #fff;
+}
+
+.countryContainer {
+  border-radius: 2rem;
+  display: flex;
+  gap: 0.5rem;
+  width: 45%;
+}
+
+.flag {
+  width: 50%;
+  height: 171px;
+  margin: 0;
+  padding: 0;
+  border-radius: 2rem;
+}
+
+.commonName,
+.capitalName,
+.population,
+.link {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.5rem;
+  background: #ff000012;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.countriesInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
