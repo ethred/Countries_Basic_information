@@ -169,7 +169,7 @@ If you like this project give a star to it
 
 I would like to thank the Microverse to let me write this
 
-Creative Commons license of the design
+Nelson Sakwa for the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
