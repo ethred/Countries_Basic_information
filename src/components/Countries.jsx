@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { fetchCountries } from '../redux/countries/countriesSlice';
 import { selectSearchTerm } from '../redux/searchbox/searchboxSlice';
 import styles from './countries.module.css';
+import forward from '../assets/circle-right-regular.svg';
 
 function Countries() {
   const dispatch = useDispatch();
@@ -35,13 +36,13 @@ function Countries() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>List of Countries</h1>
-      <div className={styles.countriesContainer}>
-        {filteredCountries.map((country) => (
-          <div className={styles.countryContainer} key={country.name.common}>
-            <img src={country.flags.svg} alt={country.flags.alt} className={styles.flag} />
+      {/* <h1 className={styles.header}>List of Countries</h1> */}
+      {filteredCountries.map((country) => (
+        <div className={styles.countryContainer} key={country.name.common}>
+          <img src={country.flags.svg} alt={country.flags.alt} className={styles.flag} />
+          <div className={styles.countriesInfo}>
             <span className={styles.commonName}>
-              Common Name:
+              Common Name :
               {' '}
               {country.name.common}
             </span>
@@ -55,12 +56,19 @@ function Countries() {
               {' '}
               {country.population}
             </span>
+          </div>
+          <div>
             <Link to={`/country/${country.name.common}`} className={styles.link}>
-              More info
+              <img
+                alt=""
+                src={forward}
+                className="forward-icon"
+              />
             </Link>
           </div>
-        ))}
-      </div>
+
+        </div>
+      ))}
     </div>
   );
 }

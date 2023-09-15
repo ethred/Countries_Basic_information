@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+  color: #fff;
 }
 
 :root {
-  font-family: monospace;
-
-  --primary-color: #ccedf3;
-  --primary-dark-color: rgb(142, 147, 240);
+  --primary-color: #ff2b90;
+  --primary-dark-color: #e02476;
   --secondary-color: white;
 }

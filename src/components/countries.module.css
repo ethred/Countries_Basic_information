@@ -1,6 +1,14 @@
 .container {
   background-color: var(--primary-color);
   padding-bottom: 10px;
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 40px;
+  justify-content: space-between;
+  margin: 60px;
 }
 
 .header {
@@ -11,23 +19,26 @@
 }
 
 .countriesContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  width: 90%;
-  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+  color: #fff;
 }
 
 .countryContainer {
   border-radius: 2rem;
   display: flex;
-  flex-direction: column;
   gap: 0.5rem;
-  background-color: var(--secondary-color);
+  width: 45%;
 }
 
 .flag {
-  width: 100%;
+  width: 50%;
   height: 171px;
   margin: 0;
   padding: 0;
@@ -51,4 +62,10 @@
 .link:hover {
   text-decoration: underline;
   color: red;
+}
+
+.countriesInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
