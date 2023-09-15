@@ -1,5 +1,6 @@
 .searchBoxContainer {
   height: 20vh;
+
   /* background-image: url("../assets/7559643.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,6 +25,7 @@
 .country_details {
   padding-top: 20px;
 }
+
 h1 {
   color: #fff;
   font-family: "Gill Sans", sans-serif;
