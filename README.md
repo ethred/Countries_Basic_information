@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://darling-narwhal-b3009b.netlify.app)
+- [Live Demo Link](https://precious-cupcake-85c76a.netlify.app/)
 
 - [Presentation Video](https://www.loom.com/share/Contrary-React-Project-Integration-with-API-d67f63d1b9c64e10b08f7e3eaa78847d?sid=66b3a9dd-dc46-49af-a27e-dfe20eeaef82)
 
@@ -168,6 +168,8 @@ If you like this project give a star to it
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the Microverse to let me write this
+
+Creative Commons license of the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
